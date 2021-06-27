@@ -196,8 +196,6 @@ Aria
 
 *Here’s the table of how each individual trainer’s results are computed. It also shows how rounding issues can lead to trainers capturing more monsters than they intend!*
 
-&nbsp;
-
 | Rome          | Raw   | Divided | Alice    | Round  | Bob  | Round
 | -----------   | ----- | ------- | ------- | ----- | ------| ------|
 | Coefficient   | 1.00  | 36.00    | 5.00  |    | 4.00  |    |
@@ -206,8 +204,6 @@ Aria
 | WholeWheat  | 6.00  | 0.17     | 0.83  | 1.00  | 0.67  | 1.00  |
 | Pepper    | 10.00  | 0.28    | 1.39  | 1.00  | 1.11   | 1.00  |
 | **Total**    | 36.00  | 1.00    | 5.00  | 5.00  | 4.00  | 4.00  |
-
-&nbsp;
 
 | Helve          | Raw   | Divided | Alice | Round | Bob    | Round  |
 | -----------   | ----- | ------- | ------- | ------- | ------- | ------|
@@ -219,8 +215,6 @@ Aria
 | Cinnamon    | 5.00  | 0.12    |     |       | 0.47   | 0.00  |
 | **Total**    | 43.00  | 1.00    |     |       | 4.00  | 4.00  |
 
-&nbsp;
-
 | Aria          | Raw   | Divided | Alice  | Round  | Bob  | Round
 | -----------   | ----- | ------- | ------- | ----- | ------| ------|
 | Coefficient   | 1.00  | 36.00    | 5.00  |    | 4.00  |    |
@@ -230,8 +224,6 @@ Aria
 | Rye      | 10.00  | 0.28    | 1.39  | 1.00  | 1.11   | 1.00  |
 | Cinnamon    | 10.00  | 0.28    | 1.39  | 1.00  | 1.11   | 1.00  |
 | **Total**    | 36.00  | 1.00    | 5.00  | 5.00  | 4.00  | 4.00  |
-
-&nbsp;
 
 | Aria          | Raw   | Divided | Alice  | Round  | Bob  | Round  | Carol  | Round  |
 | -----------   | ----- | ------- | ------- | ----- | ------| ------| ----- | ----- |
