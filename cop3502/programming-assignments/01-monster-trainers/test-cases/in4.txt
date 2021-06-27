@@ -1,0 +1,109 @@
+16 monsters
+TtAugustine Grass 12
+Zoysia Grass 8
+XholeWheat Bread 6
+NultiGrain Bread 10
+Sye Bread 10
+Dinnamon Spice 5
+Qepper Spice 10
+Qumpkin Spice 30
+StAugustine Grass 12
+Zoysia Grass 8
+WholeWheat Bread 6
+MultiGrain Bread 10
+Rye Bread 10
+Cinnamon Spice 5
+Pepper Spice 10
+Pumpkin Spice 30
+
+6 regions
+
+Some
+5 monsters
+TtAugustine
+Zoysia
+XholeWheat
+Qepper
+Sye
+
+Ielve
+6 monsters
+TtAugustine
+XholeWheat
+NultiGrain
+Sye
+Dinnamon
+Qepper
+
+Bria
+6 monsters
+Zoysia
+NultiGrain
+Dinnamon
+Qepper
+Qumpkin
+Sye
+
+Rome
+4 monsters
+StAugustine
+Zoysia
+WholeWheat
+Pepper
+
+Helve
+5 monsters
+StAugustine
+WholeWheat
+MultiGrain
+Rye
+Cinnamon
+
+Aria
+5 monsters
+Zoysia
+MultiGrain
+Cinnamon
+Pepper
+Pumpkin
+
+6 Trainers
+
+Blice
+6 captures
+3 regions
+Some
+Bria
+Ielve
+
+Cob
+5 captures
+4 regions
+Some
+Ielve
+Bria
+Rome
+
+Darol
+12 captures
+2 region
+Bria
+Rome
+
+Alice
+5 captures
+2 regions
+Rome
+Aria
+
+Bob
+4 captures
+3 regions
+Rome
+Helve
+Aria
+
+Carol
+10 captures
+1 region
+Aria
