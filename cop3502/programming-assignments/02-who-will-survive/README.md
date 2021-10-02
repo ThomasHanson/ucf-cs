@@ -169,7 +169,7 @@ This function takes in an integer and returns a dynamically allocated soldier st
 ```
 This function takes a queue reference, and creates a circular doubly linked list (in reversed order, by sequence numbers). For example, if n=5 it should produce a circular doubly linked list starting from 5 and ending at 1 as sequence number. During this process, use the create_soldier() function as well as enqueue() function to add the soldier to the queue.
 ```c
-	void rearrangeCircle(queue *q)
+  void rearrangeCircle(queue *q)
 ```
 This function takes the reference of a queue and reverse the given circular doubly linked list where the first node of the linked list is pointed by the front of the queue.
 
