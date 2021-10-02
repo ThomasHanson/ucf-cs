@@ -5,7 +5,7 @@ This assignment is intended to introduce dynamic memory allocation, pointers, an
 
 ## Problem: The Monster Trainers Need Your Help
 
-Several small monster trainers have come to you for advice regarding expeditions they're planning into various regions. You are writing a program to estimate how many monsters they can expect to capture in each region.
+Several small monster trainers have come to you for advice regarding expeditions that they're planning into various regions. You are writing a program to estimate how many monsters they can expect to capture in each region.
 
 * You've got a Small Monster Index that tells you the name, type, and relative commonality of all the small monsters in question.
   * (A monster’s absolute commonality is the same in each region. A monster’s relative commonality will change region by region as calculations are performed)
