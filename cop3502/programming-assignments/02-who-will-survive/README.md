@@ -1,5 +1,6 @@
 
 
+
 # Programming Assignment :two:
 
 This program is intended to implement the circular doubly linked list and queue data structures.
@@ -10,7 +11,7 @@ Before beginning to tackle this assignment, it should be known that this assignm
 
 Horror Kingdom has trapped G groups of soldiers of their opponent. They want to execute them. They found out a strategy in which the prisoners will kill each other and at the end one prisoner will be alive and he will be released. The kingdom has 10 execution grounds, one after another. Each ground has a name and are numbered with a sequence number starting from 1 to 10. As part of the strategy, each group is placed to an execution ground. The groups are numbered based on the assigned execution ground number. Note that G is assumed to be less than or equal to 10 and as a result some grounds could be empty. 
 
-Each group gihas n<sub>i</sub> (n<sub>i</sub> $\ge$ 2) number of soldiers. As part of the process, they labeled each soldier of a group with a sequence number starting from 1 and ending at ni. All the n<sub>i</sub> number of prisoners of group g<sub>i</sub> are standing in a circle and waiting to be executed. However, due to distraction it was found out that all prisoners in all the groups were standing in reverse order instead of proper order.
+Each group g<sub>i</sub> has n<sub>i</sub> (n<sub>i</sub> ≥ 2) number of soldiers. As part of the process, they labeled each soldier of a group with a sequence number starting from 1 and ending at n<sub>i</sub>. All the n<sub>i</sub> number of prisoners of group g<sub>i</sub> are standing in a circle and waiting to be executed. However, due to distraction it was found out that all prisoners in all the groups were standing in reverse order instead of proper order.
 
 After realizing the wrong order of sequence, they reversed the circle to the correct order.
 **Note:** the nodes have not just changed their labels, they have physically changed their order.
@@ -19,9 +20,9 @@ The execution process is divided into two phases.
 
 ## Phase 1 Execution:
 
-In Phase 1, the execution happens within the group and this phase of execution for a group gistops when the total number of soldiers for the group reduced to a threshold thi (th<sub>i</sub> $\lt$ n<sub>i</sub>). Now, they will start the executing process. The counting out begins from the first soldier in the circle of the group and proceeds around the circle in a fixed direction. In each step, a certain number of people k<sub>i - 1</sub> (k<sub>i<sub>th</sub></sub> $\gt$ 0) are skipped and the next person is executed. The elimination proceeds around the circle, which is becoming smaller and smaller as the executed people are removed. As mentioned, the execution process for the group g<sub>i</sub> will stop when the group has th<sub>i</sub>.
+In Phase 1, the execution happens within the group and this phase of execution for a group g<sub>i</sub> stops when the total number of soldiers for the group reduced to a threshold th<sub>i</sub> (th<sub>i</sub> < n<sub>i</sub>). Now, they will start the executing process. The counting out begins from the first soldier in the circle of the group and proceeds around the circle in a fixed direction. In each step, a certain number of people k<sub>i - 1</sub> (k<sub>i<sub>th</sub></sub> > 0) are skipped and the next person is executed. The elimination proceeds around the circle, which is becoming smaller and smaller as the executed people are removed. As mentioned, the execution process for the group g<sub>i</sub> will stop when the group has th<sub>i</sub>.
 
-In summary, for a group g<sub>i</sub>, you have the total number of soldiers n<sub>i</sub> (ni $\ge$ 2), and a number k<sub>i</sub> (k<sub>i</sub> $\gt$ 0), which indicates that k<sub>i - 1</sub> persons are skipped and k<sub>i<sub>th</sub></sub> person is killed in circle. There is a threshold th<sub>i</sub> (th<sub>i</sub> $\lt$ n<sub>i</sub>) that indicates to stop killing when the number of solders of the group reduced to th<sub>i</sub>. The same process should be applied to all the groups according to their own n, k and th. The remaining solders will be transferred to phase 2.
+In summary, for a group g<sub>i</sub>, you have the total number of soldiers n<sub>i</sub> (n<sub>i</sub> ≥ 2), and a number k<sub>i</sub> (k<sub>i</sub> > 0), which indicates that k<sub>i - 1</sub> persons are skipped and k<sub>i<sub>th</sub></sub> person is killed in circle. There is a threshold th<sub>i</sub> (th<sub>i</sub> < n<sub>i</sub>) that indicates to stop killing when the number of solders of the group reduced to th<sub>i</sub>. The same process should be applied to all the groups according to their own n, k and th. The remaining solders will be transferred to phase 2.
 
 ### Example 1
 
@@ -55,7 +56,7 @@ Please see the example from the sample input/output for better clarification.
 
 The input has to be read from `in.txt` file. The first line of the file contains the number of groups G captured by the kingdom. The next G lines contain the information of the groups.
 
-For each line of a group, the first integer indicates the ground number g<sub>i</sub> (g<sub>i</sub> $\le$ 10), then next item is a string that indicates the name of the execution ground (maximum length 50), the next integer indicates the number of soldier ni in the group ($\le$ 10,000), the next integer indicates the value of k<sub>i</sub> (n<sub>i</sub>$\gt$ k<sub>i</sub> $\gt$ 0) and then the next integer indicates the value of th<sub>i</sub> (n<sub>i</sub> $\gt$ th<sub>i</sub> $\gt$ 0) integer.
+For each line of a group, the first integer indicates the ground number g<sub>i</sub> (g<sub>i</sub> ≤ 10), then next item is a string that indicates the name of the execution ground (maximum length 50), the next integer indicates the number of soldier n<sub>i</sub> in the group (≤ 10,000), the next integer indicates the value of k<sub>i</sub> (n<sub>i</sub> > k<sub>i</sub> > 0) and then the next integer indicates the value of th<sub>i</sub> (n<sub>i</sub> > th<sub>i</sub> > 0) integer.
 
 ## Output Specification
 
