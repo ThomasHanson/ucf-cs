@@ -1,7 +1,7 @@
 
 # Programming Assignment :one:
 
-This assignment is intended to make you do a lot of work with dynamic memory allocation, pointers, and arrays of pointers.
+This assignment is intended to introduce dynamic memory allocation, pointers, and arrays of pointers.
 
 ## Problem: The Monster Trainers Need Your Help
 
