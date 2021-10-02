@@ -160,12 +160,12 @@ Soldier 5 from line 6 will survive
 In addition to the other functions of a queue like enqueue, dequeue, you code must have to implement the following functions and use them part of the solution:
 
 ```c
-	soldier* createSoldier(int sequence)
+  soldier* createSoldier(int sequence)
 ```
 This function takes in an integer and returns a dynamically allocated soldier structure.
 
 ```c
-	void createReverseCircle(queue *q)
+  void createReverseCircle(queue *q)
 ```
 This function takes a queue reference, and creates a circular doubly linked list (in reversed order, by sequence numbers). For example, if n=5 it should produce a circular doubly linked list starting from 5 and ending at 1 as sequence number. During this process, use the create_soldier() function as well as enqueue() function to add the soldier to the queue.
 ```c
@@ -174,7 +174,7 @@ This function takes a queue reference, and creates a circular doubly linked list
 This function takes the reference of a queue and reverse the given circular doubly linked list where the first node of the linked list is pointed by the front of the queue.
 
 ```c
-	void display(queue q)
+  void display(queue q)
 ```
 
 This function displays a given queue.
