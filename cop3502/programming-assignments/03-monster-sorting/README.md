@@ -31,7 +31,7 @@ Should be sorted into:
 In order to store the monsters and there finding from sorting, you must use the following structures:
 
 ```c
-typedef  struct monster {
+typedef struct monster {
   int id;
   char name[64];
   char element[64];
@@ -39,7 +39,7 @@ typedef  struct monster {
   double weight;
 } monster;
 
-typedef  struct  {
+typedef struct {
   long  long  int compares;
   long  long  int copies;
 } sort_results;
