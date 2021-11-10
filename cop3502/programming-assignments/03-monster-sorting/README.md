@@ -40,8 +40,8 @@ typedef struct monster {
 } monster;
 
 typedef struct {
-  long  long  int compares;
-  long  long  int copies;
+  long long int compares;
+  long long int copies;
 } sort_results;
 ```
 
